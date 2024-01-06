@@ -1,0 +1,21 @@
+{
+  "name": "rustem-kaimolla/simple-telegram-service",
+  "description": "Telegram ботпен ыңғайлы жұмыс жасау үшін қолданылатын қарапайым сервис ",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rustem Kaimolla",
+      "email": "rustem@exact.kz"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RustemKaimolla\\SimpleTelegramService\\": "src/"
+    }
+  }
+}
